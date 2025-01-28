@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#score {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  z-index: 100;
+}
+
+#controls-help {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  z-index: 100;
+}
+
+#controls-help h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#controls-help ul {
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+#controls-help p {
+  margin: 5px 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
